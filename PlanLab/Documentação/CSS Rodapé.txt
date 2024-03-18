@@ -1,0 +1,48 @@
+/* Estilos para o rodapé */
+.rodape {
+    background-color: #2947f2; /* Mantendo a cor do projeto */
+    color: #fff;
+    padding: 0px 30px; /* Diminuindo o espaçamento vertical */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Estilos para os dados de contato */
+.rodape-contato {
+    flex: 1;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/* Estilos para os links úteis */
+.rodape-links {
+    flex: 1;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.rodape-links li {
+    list-style: none; /* Removendo marcadores */
+    margin-bottom: 10px; /* Espaçamento entre os links */
+}
+
+.rodape-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.rodape-links a:hover {
+    text-decoration: none; /* Removendo o sublinhado ao passar o mouse */
+}
+
+#contato {
+    margin-left: 150px;
+}
+/* Estilos para os direitos autorais */
+.direitos-autorais {
+    width: 100%;
+    text-align: center;
+}
